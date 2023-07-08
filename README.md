@@ -1,5 +1,5 @@
 # TabPyMigrate
 
-This Repository will help in using as TabMigrate alternative with latest features.
+This Repository will help in Tableau Deployment with latest features.
 
 -In Development v0.01
