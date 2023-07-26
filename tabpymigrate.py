@@ -1,7 +1,11 @@
+'''
+    TabPyMigrate
 
+    Tabpymigrate.py gets all input from config.py and execute download and publish for tableau server.
+'''
 from datetime import datetime
-from .tabpymigrate_download import tabpymigrate_download
-from .tabpymigrate_publish import tabpymigrate_publish
+from tabpymigrate_download import tabpymigrate_download
+from tabpymigrate_publish import tabpymigrate_publish
 import os
 import shutil
 import csv
