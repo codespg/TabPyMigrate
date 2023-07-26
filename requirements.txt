@@ -1,0 +1,4 @@
+tableauserverclient
+tableaudocumentapi
+xml
+shutil
