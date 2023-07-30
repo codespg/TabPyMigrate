@@ -51,4 +51,4 @@ ignore_missing_imports = true
 testpaths = ["test"]
 addopts = "--junitxml=./test.junit.xml"
 
-__version__ = metadata.version("tabpymigrate")
+
