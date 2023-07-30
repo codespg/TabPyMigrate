@@ -35,9 +35,11 @@ pip install -r requirements.txt
 ## Usage
 Update config.py for source and target server and Tag the objects in Source Server
 ```
+cd tabpymigrate
 python tabpymigrate.py
 ```
 Option2: Provide all required information and run in cli.
 ```
+cd tabpymigrate
 python tabpymigrate.py -action DOWNLOAD -source_server_name yourservername -source_username username -source_password password -tag_name tag_name -filesystem_path filesystem_path
 ```
