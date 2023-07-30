@@ -1,10 +1,14 @@
+import importlib.metadata
+
+name="tabpymigrate"
+__version__ = importlib.metadata.version(name)
 
 [build-system]
 requires = ["setuptools>=45.0", "versioneer>=0.24", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name="tabpymigrate"
+name=name
 dynamic = ["version"]
 description='Python project to download and deploy objects to Tableau Server via REST API.'
 authors = [{name="Tableau", email="kavikag00@gmail.com"}]
