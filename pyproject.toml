@@ -1,7 +1,7 @@
 import importlib.metadata
 
 name="tabpymigrate"
-__version__ = importlib.metadata.version(name)
+__version__ = metadata.version(name)
 
 [build-system]
 requires = ["setuptools>=45.0", "versioneer>=0.24", "wheel"]
