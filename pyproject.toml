@@ -1,14 +1,11 @@
 import importlib.metadata
 
-name="tabpymigrate"
-__version__ = metadata.version(name)
-
 [build-system]
 requires = ["setuptools>=45.0", "versioneer>=0.24", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name=name
+name="tabpymigrate"
 dynamic = ["version"]
 description='Python project to download and deploy objects to Tableau Server via REST API.'
 authors = [{name="Tableau", email="kavikag00@gmail.com"}]
@@ -54,3 +51,5 @@ ignore_missing_imports = true
 [tool.pytest.ini_options]
 testpaths = ["test"]
 addopts = "--junitxml=./test.junit.xml"
+
+__version__ = metadata.version("tabpymigrate")
