@@ -1,4 +1,3 @@
-import importlib.metadata
 
 [build-system]
 requires = ["setuptools>=45.0", "versioneer>=0.24", "wheel"]
