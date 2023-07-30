@@ -33,8 +33,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-Update config.py for source and target server
-Tag the objects in Source Server
+Update config.py for source and target server and Tag the objects in Source Server
 ```
 python tabpymigrate.py
 ```
