@@ -4,6 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name="tabpymigrate"
+version="v0.1"
 
 dynamic = ["version"]
 description='Python project to download and deploy objects to Tableau Server via REST API.'
