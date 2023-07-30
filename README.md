@@ -40,5 +40,5 @@ python tabpymigrate.py
 ```
 Option2: Provide all required information and run in cli.
 ```
-python tabpymigrate.py -action DOWNLOAD -source_server_name yourservername -username username -password password -tag_name tag_name -filesystem_path filesystem_path
+python tabpymigrate.py -action DOWNLOAD -source_server_name yourservername -source_username username -source_password password -tag_name tag_name -filesystem_path filesystem_path
 ```
