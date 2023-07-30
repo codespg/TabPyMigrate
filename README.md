@@ -30,5 +30,12 @@ cd TabPyMigrate
 
 # Install the required packages
 pip install -r requirements.txt
+```
 
+## Usage
+Update config.py for source and target server
+Tag the objects in Source Server
+```
+cd TabPyMigrate
 python tabpymigrate.py
+```
